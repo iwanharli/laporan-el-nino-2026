@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { 
-  TableIcon, Search, Download, FileSpreadsheet, Filter, Database, ArrowRight, Activity
+  Search, Download, FileSpreadsheet, Filter, Database, ArrowRight, Activity
 } from 'lucide-react';
 import { ScrollReveal, StaggerContainer, StaggerItem } from '@/components/animations';
 import { 

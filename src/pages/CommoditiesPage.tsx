@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
-import { Wheat, AlertTriangle, Leaf, Activity, TrendingDown, Map as MapIcon, Database, Droplets, DollarSign } from 'lucide-react';
+import { Wheat, Leaf, Activity, TrendingDown, Map as MapIcon, Database, Droplets, DollarSign } from 'lucide-react';
 import InteractiveMap from '@/components/map/InteractiveMap';
 import { SimpleBarChart, SimpleRadarChart } from '@/components/charts/ChartComponents';
 import { commodityData, regionData } from '@/data/reportData';

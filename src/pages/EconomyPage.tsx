@@ -6,7 +6,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@
 import { Progress } from '@/components/ui/progress';
 import { 
   Factory, Ship, Droplets, TrendingUp, TrendingDown,
-  DollarSign, Zap, Activity, ShieldAlert, BarChart3, Globe
+  DollarSign, Activity, ShieldAlert, BarChart3, Globe
 } from 'lucide-react';
 import { SimpleBarChart, MultiBarChart } from '@/components/charts/ChartComponents';
 import { 

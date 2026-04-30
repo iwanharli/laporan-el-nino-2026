@@ -5,7 +5,7 @@ import { Slider } from '@/components/ui/slider';
 import { Badge } from '@/components/ui/badge';
 import { 
   Gauge, TrendingDown, Flame, Droplets, DollarSign, 
-  Wheat, Factory, AlertTriangle, RotateCcw, Zap, Activity, ShieldAlert, Cpu
+  Wheat, Factory, RotateCcw, Zap, Activity, ShieldAlert, Cpu
 } from 'lucide-react';
 import { 
   SimpleBarChart, SimpleAreaChart 
@@ -54,14 +54,6 @@ export default function ScenarioSimulator() {
     { name: 'Jagung', decline: result.riceDecline * 1.5 },
     { name: 'Kedelai', decline: result.riceDecline * 0.8 },
     { name: 'Karet', decline: result.riceDecline * 1.2 },
-  ];
-
-  const economicData = [
-    { name: 'Pertanian', value: result.economicLoss * 0.25 },
-    { name: 'Karhutla', value: result.economicLoss * 0.30 },
-    { name: 'Logistik', value: result.economicLoss * 0.15 },
-    { name: 'Kekeringan', value: result.economicLoss * 0.18 },
-    { name: 'Kesehatan', value: result.economicLoss * 0.12 },
   ];
 
   const monthData = Array.from({ length: duration[0] }, (_, i) => ({

@@ -5,8 +5,8 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@
 import { Progress } from '@/components/ui/progress';
 import { Flame, AlertTriangle, MapPin, Droplets, Activity, ShieldAlert, Zap, Globe } from 'lucide-react';
 import InteractiveMap from '@/components/map/InteractiveMap';
-import { SimpleBarChart, MultiBarChart, SimpleAreaChart } from '@/components/charts/ChartComponents';
-import { karhutlaData, regionData, hotspotComparison, scenarioData } from '@/data/reportData';
+import { SimpleBarChart, SimpleAreaChart } from '@/components/charts/ChartComponents';
+import { karhutlaData, regionData, scenarioData } from '@/data/reportData';
 import { motion } from 'framer-motion';
 
 export default function KarhutlaPage() {
